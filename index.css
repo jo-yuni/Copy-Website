@@ -79,7 +79,6 @@ video {
 }
 
 .vision {
-    font-family: helvetica, "Spoqa Han Sans", "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", "Noto Sans", "sans-serif";
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -87,14 +86,22 @@ video {
 }
 
 .boldtext {
-    font-size: 28px;
+    font-size: 27px;
     font-weight: bold;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
 }
 
 .legulartext {
+    margin-top: 20px;
     text-align: center;
     font-size: 15px;
     font-weight: 300;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     color: #404040;
+}
+
+.secondlegulartext {
+    margin-top: 5px;
 }
 
